@@ -123,28 +123,16 @@ hr {
   color: #a2a2a2;
 }
 .course-duration {
-  /* left: 31.85%;
-  right: 61.57%;
-  top: 92.16%;
-  bottom: 5.43%; */
   margin-left: 30px;
   background: #ffe4e8;
   border-radius: 14.6913px;
 }
 .fa-clock {
   color: #ed6b4f;
-  /* left: 51.39%;
-  right: 47.22%;
-  top: 92.49%;
-  bottom: 5.87%; */
   margin: 5px;
 }
 .course-duration span {
   color: #ed6b4f;
-  /* left: 20px;
-  right: 20px;
-  top: 20px;
-  bottom: 20px; */
   margin-right: 5px;
   font-weight: 600;
   font-size: 14.6913px;
