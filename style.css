@@ -176,7 +176,7 @@ hr {
   bottom: 6.32%;
   font-size: 12px;
 }
-.fa-star.filled {
+.fa-star.filled, .fa-star-half{
   color: #ffc014;
 }
 .fa-star.empty {
