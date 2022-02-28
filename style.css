@@ -130,12 +130,13 @@ hr {
   font-size: 20.03px;
   font-weight: 500;
   line-height: 23.48px;
+  margin-top: 20px;
 }
 .course-detail .course-author {
   color: #ed6b4f;
   font-weight: 400;
   font-size: 14.69px;
-  line-height: 17.22px;
+  line-height: 20px;
 }
 .course-info {
   display: flex;
@@ -168,6 +169,7 @@ hr {
   font-weight: 600;
   font-size: 14.6913px;
   line-height: 20px;
+  padding: 0 2px;
 }
 .fa-star {
   left: 22.66%;
