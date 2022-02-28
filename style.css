@@ -67,6 +67,7 @@ hr {
   transition: transform 0.5s linear;
 }
 .player:hover img{
+  border: none;
   transform: scale(2.2);
 }
 .player:hover .player-name{
