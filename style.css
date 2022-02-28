@@ -64,13 +64,13 @@ hr {
   height: 56px;
   border: 5px solid tomato;
   border-radius: 50%;
-  transition: transform 0.3s linear;
+  transition: transform 0.5s linear;
 }
 .player:hover img{
-  transform: scale(2);
+  transform: scale(2.2);
 }
 .player:hover .player-name{
-  margin-left: 40px;
+  margin-left: 45px;
 }
 .player-name {
   margin-left: 16px;
