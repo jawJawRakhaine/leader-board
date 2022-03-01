@@ -249,7 +249,7 @@ hr {
   color: #aeaeae;
 }
 /* media query */
-@media only screen and(max-width:688px) {
+@media only screen and (max-width:688px) {
   .container {
     width: 100%;
   }
@@ -257,6 +257,15 @@ hr {
   .blogs,
   .courses {
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+  }
+  .player:hover .player-name{
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .blogs,.courses{
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
   }
   .player,
   .blog,
