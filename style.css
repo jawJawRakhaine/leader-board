@@ -54,6 +54,10 @@ body {
   text-decoration: none;
   padding: 10px;
 }
+.menu a:hover{
+  background-color: tomato;
+  border-radius: 5px;
+}
 .profile{
   width: 51px;
   height: 51px;
