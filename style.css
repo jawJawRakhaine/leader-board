@@ -96,10 +96,10 @@ hr {
   margin-top: 3px;
   margin-bottom: 20px;
 }
-.players {
+.players{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
+  grid-row-gap: 20px;
   grid-column-gap: 30px;
 }
 .player {
@@ -116,7 +116,7 @@ hr {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.player img {
+.player img{
   width: 56px;
   height: 56px;
   border: 5px solid tomato;
@@ -125,7 +125,7 @@ hr {
 }
 .player:hover img{
   border: none;
-  transform: scale(2.2);
+  transform: scale(2);
 }
 .player:hover .player-name{
   margin-left: 45px;
@@ -178,13 +178,13 @@ hr {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 24px;
 }
-.course{
+.course, .testimonial{
   align-items: center;
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
-.course:hover{
+.course:hover , .testimonial:hover{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
@@ -205,7 +205,7 @@ hr {
   font-size: 14.69px;
   line-height: 20px;
 }
-.course-info {
+.course-info{
   display: flex;
   align-items: center;
 }
@@ -251,14 +251,52 @@ hr {
 .fa-star.empty {
   color: #aeaeae;
 }
+/* testimonials */
+.testimonials{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+}
+.testimonial{
+  align-items: center;
+}
+.testimonial-photo img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border: 5px solid tomato;
+  border-radius: 50%;
+  transition: transform 0.5s linear;
+}
+.testimonial-photo:hover img{
+  border: none;
+  transform: scale(1.3);
+}
+.testimonial-details, .testimonial-photo{
+  text-align: center;
+}
+.testimonial-details .name{
+  color: tomato;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.testimonial-info {
+  margin-top: 10px;
+}
+/* footer */
+footer{
+  text-align: center;
+  font-size: 20px;
+}
 /* media query */
 @media only screen and (max-width:688px) {
   .container {
-    width: 100%;
+    width: 97%;
   }
   .players,
   .blogs,
-  .courses {
+  .courses, .testimonials {
     grid-template-columns: repeat(1, 1fr);
   }
   .player:hover .player-name{
@@ -273,5 +311,8 @@ hr {
   .blog,
   .course {
     flex-direction: column;
+  }
+  footer{
+    font-size: 16px;
   }
 }
