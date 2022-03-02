@@ -114,6 +114,7 @@ hr {
 }
 .player:hover{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .player img {
   width: 56px;
@@ -128,6 +129,7 @@ hr {
 }
 .player:hover .player-name{
   margin-left: 45px;
+  cursor: pointer;
 }
 .player-name {
   margin-left: 16px;
@@ -148,6 +150,7 @@ hr {
 }
 .blog:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .blog .thumbnail img {
   width: 177px;
@@ -183,6 +186,7 @@ hr {
 }
 .course:hover{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .course .course-banner img {
   width: 224px;
