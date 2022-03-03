@@ -125,7 +125,7 @@ hr {
 }
 .player:hover img{
   border: none;
-  transform: scale(2);
+  transform: scale(1.5);
 }
 .player:hover .player-name{
   margin-left: 45px;
