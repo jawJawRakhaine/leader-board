@@ -293,6 +293,8 @@ hr {
   font-size: 30px;
   margin-bottom: 10px;
   color: tomato;
+  border-bottom: 3px solid tomato;
+  width: 100px;
 }
 .contact-form{
   display: grid;
