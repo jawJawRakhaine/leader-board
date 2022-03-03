@@ -285,6 +285,9 @@ hr {
   margin-top: 10px;
 }
 /* contact */
+.control-form{
+  margin-bottom: 0;
+}
 .contact-form h2{
   text-align: center;
   font-size: 30px;
@@ -324,6 +327,9 @@ hr {
   color: #fff;
   font-size: 18px;
   cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #696865ce;
 }
 /* footer */
 footer{
